@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RFID Transactions</title>
+    <style>
+  
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #eaf2f8;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+
+        .header {
+            background-color: #253b9e;
+            padding: 20px;
+            text-align: center;
+            color: white;
+        }
+
+        .header h1 {
+            margin: 0;
+            font-size: 24px;
+        }
+
+        .table-container {
+            margin: 20px auto;
+            padding: 20px;
+            max-width: 900px;
+            background-color: #ffffff;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 20px;
+        }
+
+        table th, table td {
+            padding: 10px;
+            text-align: left;
+            border: 1px solid #ccc;
+        }
+
+        table th {
+            background-color: #094109; 
+            color: white;
+            text-align: center;
+        }
+
+        table tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+
+        table tr:hover {
+            background-color: #d1e7dd;
+        }
+
+
+        .footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #5b2499; 
+            color: white;
+            margin-top: auto;
+            position: relative;
+        }
+
+        .footer a {
+            color: #1abc9c;
+            text-decoration: none;
+        }
+
+        .footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>RFID Transactions</h1>
+    </div>
+
+    <div class="table-container">
+        <table>
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Customer</th>
+                    <th>Initial Balance</th>
+                    <th>Transport Fare</th>
+                    <th>New Balance</th>
+                    <th>Timestamp</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>RUYANGE Arnold</td>
+                    <td>17000</td>
+                    <td>780</td>
+                    <td>16220</td>
+                    <td>2025-01-25 14:52:22</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>MUGABE Promesse</td>
+                    <td>7500</td>
+                    <td>700</td>
+                    <td>6800</td>
+                    <td>2025-01-25 14:56:11</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>GANZA RWABUHAMA Danny Mike</td>
+                    <td>12000</td>
+                    <td>820</td>
+                    <td>11180</td>
+                    <td>2025-01-25 15:15:50</td>
+                </tr>
+                <tr>
+                  <td>4</td>
+                  <td>TUYUBAHE Ashrafu</td>
+                  <td>19000</td>
+                  <td>420</td>
+                  <td>18580</td>
+                  <td>2025-01-25 15:45:50</td>
+              </tr>
+              <tr>
+                <td>5</td>
+                <td>MUGISHA Chrispin</td>
+                <td>18000</td>
+                <td>1100</td>
+                <td>16900</td>
+                <td>2025-01-25 16:10:50</td>
+            </tr>
+            <tr>
+              <td>6</td>
+              <td>DUSHIMIRE Aine</td>
+              <td>2000</td>
+              <td>600</td>
+              <td>1400</td>
+              <td>2025-01-25 16:35:50</td>
+          </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <div class="footer">
+        <p>&copy; 2025 MUCYO Ivan | <a href="https://my-portfolio-mucyoivan-58.vercel.app/">Ivan.rw</a></p>
+    </div>
+</body>
+</html>
